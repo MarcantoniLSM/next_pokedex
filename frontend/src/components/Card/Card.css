@@ -1,0 +1,27 @@
+.card{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: #131313;
+    width: 120px;
+    height: 100px;
+    padding: 0.5rem;
+    margin: 1rem;
+    border-radius: 10px;
+    border: 1px hsl(0, 0%, 50%) solid;
+    position: relative;
+}
+
+.card img{
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 80%;
+  z-index: 3;
+}
+
+.card span .name{
+    position: absolute;
+    left: 0;
+    z-index: 5;
+}

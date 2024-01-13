@@ -1,0 +1,36 @@
+.screen{
+    height: 632px;
+    width: 330px;
+    background-color: #000;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.image{
+    transform: rotate(-25deg);
+    float: right;
+    opacity: 0.1;
+    margin-top: 4rem;
+}
+
+.content{
+    margin-top: 2rem;
+    position: absolute;
+    max-height: 90%;
+    top: 0;
+    left: 0;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow-y: auto;
+}
+
+.search{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    z-index: 10;
+    margin: 1rem;
+}
